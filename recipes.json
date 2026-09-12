@@ -37,7 +37,7 @@
     "Baked Baguette French Toast": {
       "title": "Baked Baguette French Toast",
       "image": "./imgs/recipes/breakfast/CWAR-weekend-brunch-baked-baguette-french-toast.webp",
-      "source": "Bon Appétit",
+      "source": "Bon Appétit Magazine",
       "prep": "20 minutes",
       "cook": "10 minutes",
       "yield": "4 servings",
@@ -102,6 +102,89 @@
         "To Make Streusel Topping: Mix together sugar, flour, butter, cinnamon and cardamom with a fork until coarse crumbs form. Sprinkle over muffins before baking.",
         "Divide batter evenly into muffin cups. Sprinkle with streusel topping.",
         "Bake for 20-25 minutes, until a tester inserted into the center comes out clean. When muffins are done, cool for a few minutes in the muffin pan before removing to cool on a wire rack."
+      ]
+    },
+    "Buttermilk Biscuits": {
+      "image":"./imgs/recipes/breakfast/BiscuitsDetail-Buttermilk2_c5308f04-66ee-49f0-9692-cd9b8355e9f5.webp",
+      "source": "Callie's Hot Little Biscuit",
+      "prep":"",
+      "cook":"20 minutes",
+      "yield":"6 servings",
+      "ingredients": [
+        "2 1/2 cup all-purpose flour",
+        "5/8 teaspoon baking soda",
+        "1 7/8 Teaspoons baking powder",
+        "1 1/4 Teaspoon salt",
+        "5 Tablespoons butter freeze the butter, then grate",
+        "5 ounces cream cheese cut into pieces, freeze and grate",
+        "1 cup buttermilk"
+      ],
+      "steps":[
+        "Preheat your oven to 425 degrees. Line a baking sheet with parchment paper.",
+        "Sift the flour,baking soda, baking powder and salt together in a large bowl.",
+        "Add the grated butter and cream cheese to the bowl and mix it by hand, using a snapping motion to mix the dairy ingredients into the dry mix.",
+        "Add the buttermilk and stir with a fork.",
+        "Flour your counter top, place the dough on the floured surface, work the dough slightly just until it comes together.",
+        "Roll the dough into a rectangle about 3/4 inch thick. Fold the dough like you would be folding a letter. Bring both ends of the dough to the middle and then fold again. Repeat rolling out the dough to a rectangle and folding one more time. Roll the dough out to a rectangle one last time, cut to make squares, or use a round cutter.",
+        "Place the biscuits on a parchment paper lined baking sheet. Bake at 425 degrees for about 20 minutes or until tops are golden.",
+        "Brush with melted butter and serve."
+      ]
+    },
+    "Buttermilk Cornmeal Pancakes": {
+      "image":"./imgs/recipes/breakfast/20260128_05_SEO_Cornmeal Pancakes_0168_FINAL.webp",
+      "source": "Bon Appétit Magazine",
+      "prep":"",
+      "cook":"30 minutes",
+      "yield":"20 pancakes",
+      "ingredients":[
+        "1 1/2 cup (240 g) fine- or medium-ground yellow cornmeal",
+        "1 1/2 cup (188 g) unbleached all-purpose flour",
+        "4 Tbsp. sugar",
+        "1 tsp. baking powder",
+        "1 tsp. baking soda",
+        "2 tsp. Diamond Crystal or 1 tsp. Morton kosher salt",
+        "4 large eggs",
+        "2 1/2 cups buttermilk",
+        "6 Tbsp. unsalted butter, melted, cooled"
+      ],
+      "steps":[
+        "Sift ¾ cup (120 g) fine- or medium-ground yellow cornmeal, ¾ cup (94 g) unbleached all-purpose flour, 2 Tbsp. sugar, ½ tsp. baking powder, ½ tsp. baking soda, and 1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt into a large bowl.",
+        "Whisk 2 large eggs and 1¼ cups buttermilk in a medium bowl to combine. Add to dry ingredients and whisk until mostly blended.",
+        "Drizzle 3 Tbsp. unsalted butter, melted, cooled over the batter, and continue whisking until butter is incorporated and no dry spots remain (a few lumps are fine).",
+        "Lightly coat the bottom of a large heavy skillet with vegetable oil and heat over medium.",
+        "Scoop 1/4-cupfuls of batter into pan, spacing evenly apart.",
+        "Cook pancakes until golden brown underneath, 2–3 minutes. Flip and cook until golden brown on other side, about 2 minutes."
+      ]
+    },
+    "Buttermilk Pancakes": {
+      "title": "Buttermilk Pancakes",
+      "image":"./imgs/recipes/breakfast/24330_sfs-buttermilk-pancakes-25.webp",
+      "prep":"25 minutes",
+      "cook":"15 minutes",
+      "yield":"14 servings",
+      "source": "America's Test Kitchen",
+      "ingredients": {
+        "Dry Ingredients": [
+          "2 cups all-purpose flour",
+          "3 tablespoons sugar",
+          "4 teaspoons baking powder",
+          "1/2 teaspoon baking soda",
+          "1 teaspoon salt"
+        ],
+        "Wet Ingredients": [
+          "2 eggs",
+          "1/4 cup vegetable oil",
+          "2 cups buttermilk",
+          "1/2 cup milk",
+          "1/2 teaspoon pure vanilla extract"
+        ]
+      },
+      "steps":[
+        "Mix together dry ingredients.",
+        "Mix together wet ingredients in a separate bowl.",
+        "Pour wet ingredients into dry ingredients. Mix together slightly so there are still lumps (crucial for fluffy pancakes).",
+        "Let mix rest for 10 minutes to allow baking soda and buttermilk to react.",
+        "Cook on a non-stick pan."
       ]
     },
     "Cornmeal-Blueberry Pancakes": {
