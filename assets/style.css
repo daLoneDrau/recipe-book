@@ -98,6 +98,27 @@ a { color: inherit; }
   color: white;
 }
 
+.subfilters {
+  padding-top: 2px;
+}
+
+.subfilter-btn {
+  font-family: inherit;
+  font-size: 0.82rem;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--rule);
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.subfilter-btn.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: white;
+}
+
 /* ---------- Card grid ---------- */
 
 .card-grid {
@@ -165,6 +186,17 @@ a { color: inherit; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.subcat-badge {
+  display: inline-block;
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin: 0 0 10px;
 }
 
 .card-meta {
@@ -243,6 +275,13 @@ a { color: inherit; }
   padding: 4px 12px;
   border-radius: 999px;
   margin-bottom: 14px;
+}
+
+.subcat-pill {
+  background: transparent !important;
+  color: var(--ink-soft);
+  border: 1.5px solid var(--rule);
+  margin-left: 8px;
 }
 
 .index-card h1 {

@@ -10,6 +10,7 @@ Reads recipes.json, shaped like:
         "title": "...",
         "image": "./imgs/recipes/whatever.jpg",   # optional, "" if none
         "source": "...",                           # optional
+        "subcategory": "Poultry",                  # optional, secondary filter/label
         "prep": "20 minutes",                      # optional
         "cook": "10 minutes",                      # optional
         "yield": "4 servings",                     # optional
@@ -157,6 +158,15 @@ PAGE_FOOT = """
 def render_index(recipes, tab_colors):
     categories = sorted(set(r["category"] for r in recipes))
 
+    # Map each category to the sorted set of subcategories used within it,
+    # so the page can offer a secondary filter once a category is chosen.
+    category_subcats = {}
+    for r in recipes:
+        sub = (r.get("subcategory") or "").strip()
+        if sub:
+            category_subcats.setdefault(r["category"], set()).add(sub)
+    category_subcats = {c: sorted(s) for c, s in category_subcats.items()}
+
     cat_buttons = ['<button class="filter-btn active" data-filter="all">All</button>']
     for c in categories:
         cat_buttons.append(
@@ -185,13 +195,18 @@ def render_index(recipes, tab_colors):
         if src:
             source_html = f'<p class="card-source">from {esc(src)}</p>'
 
+        subcat = (r.get("subcategory") or "").strip()
+        subcat_html = f'<span class="subcat-badge">{esc(subcat)}</span>' if subcat else ""
+
         cards.append(f"""
         <a class="card" href="recipes/{esc(r['slug'])}.html"
-           data-category="{esc(r['category'])}" data-search="{esc(r['title'].lower())}">
+           data-category="{esc(r['category'])}" data-subcategory="{esc(subcat)}"
+           data-search="{esc(r['title'].lower())}">
           <span class="card-tab" style="background:{color}"></span>
           {thumb_html}
           <div class="card-body">
             <h2>{esc(r['title'])}</h2>
+            {subcat_html}
             {source_html}
             <div class="card-meta">{''.join(meta_bits)}</div>
           </div>
@@ -206,6 +221,7 @@ def render_index(recipes, tab_colors):
 <div class="toolbar">
   <input id="search" type="search" placeholder="Search recipes..." autocomplete="off">
   <div class="filters">{''.join(cat_buttons)}</div>
+  <div class="filters subfilters" id="subcategory-filters" hidden></div>
 </div>
 
 <main class="card-grid" id="card-grid">
@@ -218,6 +234,7 @@ def render_index(recipes, tab_colors):
   <p>Built on {date.today().isoformat()}. {len(recipes)} recipes in the box.</p>
 </footer>
 
+<script id="category-subcats" type="application/json">{json.dumps(category_subcats)}</script>
 <script src="assets/site.js"></script>
 """
     html_out = PAGE_HEAD.format(title="The Recipe Box", css_path="assets/style.css") + body + PAGE_FOOT
@@ -251,12 +268,15 @@ def render_recipe_page(recipe, tab_colors):
         else:
             source_html = f'<p class="source">Source: {esc(src)}</p>'
 
+    subcat = (recipe.get("subcategory") or "").strip()
+    subcat_html = f'<span class="card-tab-large subcat-pill">{esc(subcat)}</span>' if subcat else ""
+
     body = f"""
 <div class="recipe-page">
   <a class="back-link" href="../index.html">&larr; Back to the box</a>
   <article class="index-card" style="--tab-color:{color}">
     <div class="punch-holes"><span></span><span></span><span></span></div>
-    <span class="card-tab-large" style="background:{color}">{esc(recipe['category'])}</span>
+    <span class="card-tab-large" style="background:{color}">{esc(recipe['category'])}</span>{subcat_html}
     <h1>{esc(recipe['title'])}</h1>
     {hero_html}
     {source_html}

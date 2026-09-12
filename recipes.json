@@ -262,6 +262,35 @@
         "Cook until small bubbles begin to appear on surface of cakes and edges are set, about 2 minutes. Flip and cook until second side is golden brown, about 2 minutes longer. Transfer hoecakes to prepared sheet in oven. Repeat with remaining fat and batter: 5 additional batches for skillet or 1 additional batch for griddle. Serve."
       ]
     },
+    "Lemon Blueberry Muffins": {
+      "title": "Lemon Blueberry Muffins",
+      "image": "./imgs/recipes/breakfast/19KOrex-lthp-superJumbo.webp",
+      "prep": "5 minutes",
+      "cook": "45 minutes",
+      "yield": "12 muffins",
+      "source": "New York Times Cooking",
+      "ingredients": [
+        "1 ¾ cups/247 grams all-purpose flour",
+        "1 ½ teaspoons baking powder",
+        "½ teaspoon baking soda",
+        "½ teaspoon fine salt",
+        "⅔ cup/137 grams granulated sugar",
+        "1 lemon",
+        "1 cup/241 grams plain whole-milk yogurt",
+        "¼ cup/60 grams neutral-flavored oil, olive oil or melted butter",
+        "2 large eggs",
+        "1 cup fresh or thawed frozen blueberries"
+      ],
+      "steps": [
+        "Heat oven to 375 degrees. Line a standard 12-cup muffin tin with paper liners or generously grease. Either way, be sure to coat the top of the tin with butter or nonstick cooking spray to easily remove the muffin tops.",
+        "In a large bowl, whisk the flour, baking powder, baking soda and salt.",
+        "Add sugar to a medium bowl, and zest the lemon directly into the sugar. Rub together until the sugar is pale yellow. Squeeze in 2 tablespoons lemon juice, then add the yogurt, oil and eggs. Whisk until very smooth.",
+        "Toss the blueberries into the dry mixture until evenly coated, then add the wet ingredients and stir gently just until no traces of flour remain. It’s OK if the batter is lumpy.",
+        "Divide the batter evenly among the muffin cups.",
+        "Bake until golden brown on top, about 20 minutes. When you press the top of a muffin, it should almost feel like a soft pillow.",
+        "Cool for at least 5 minutes before removing from the tin. Completely cooled muffins can be frozen in an airtight container for up to 2 months. Thaw fully, then reheat in a toaster oven before enjoying."
+      ]
+    },
     "Waffles": {
       "title": "Waffles",
       "image":"./imgs/recipes/breakfast/FAW-light-and-crispy-waffles-hero-01-8bf764fb8dac4ba0b119f5cbcda7a4e1.webp",
@@ -285,6 +314,52 @@
       "steps":[
         "In a small bowl, combine cinnamon, nutmeg, and sugar and set aside briefly.",
         "In a 10-inch or 12-inch skillet, melt butter over medium heat. Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container such as a pie plate. Dip bread in egg mixture. Fry slices until golden brown, then flip to cook the other side. Serve with syrup."
+      ]
+    }
+  },
+  "Entrees": {
+    "General Tso's Chicken": {
+      "title": "General Tso's Chicken",
+      "image": "./imgs/recipes/entrees/poultry/453cf9ab52c2e865c1049a7d717572c80fc471c1-1000x563.webp",
+      "subcategory": "Chinese",
+      "prep": "30 minutes",
+      "cook": "35 minutes",
+      "yield": "4 servings",
+      "source": "Made With Lau",
+      "ingredients": [
+        "1 1/2 to 2 pounds chicken breast",
+        "1/2 teaspoon garlic salt",
+        "1 1/2 tablespoon soy sauce",
+        "1 egg",
+        "few slices of ginger",
+        "4 cloves garlic",
+        "2 small red bell peppers",
+        "4 tablespoon flour",
+        "3 tablespoon cornstarch",
+        "3 tablespoon soy sauce",
+        "4 tablespoon sugar",
+        "2 tablespoon vinegar",
+        "2 tablespoon ketchup",
+        "1/2 teaspoon white pepper",
+        "2 teaspoon cornstarch",
+        "2 tablespoon water",
+        "1 teaspoon sesame oil"
+      ],
+      "steps": [
+        "Cut the chicken into cubes.",
+        "Add garlic salt, light soy sauce, and mix and massage with the chicken for about 1 minute.",
+        "Crack, beat, and pour the eggs into the bowl, and mix and massage for another 30 seconds.",
+        "Chop and mince the garlic and ginger.",
+        "Cut the red bell pepper into strips.",
+        "Add flour to the marinated chicken and massage for about 1 to 2 minutes to coat the chicken evenly in the flour.",
+        "Add cornstarch to a bowl, and coat each piece of chicken with it. Squeeze each chicken piece a few times to help cover each piece.",
+        "Mix the soy sauce, sugar, vinegar, ketchup, and white pepper to make the sauce.",
+        "Fry the chicken in batches.",
+        "Clear the wok and add some oil. Fry the garlic and ginger to release the aromas.",
+        "Add the sauce and stir for 30 seconds.",
+        "Add the cornstarch slurry to thicken the sauce.",
+        "Add the sesame oil and bell peppers and cook for 30 seconds.",
+        "Add the chicken and stir to evenly coat them."
       ]
     }
   }
