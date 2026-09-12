@@ -72,7 +72,7 @@
     },
     "Cornmeal-Blueberry Pancakes": {
       "title": "Cornmeal-Blueberry Pancakes",
-      "image":"./imgs/recipes/15PANCAKEGUIDE1-WEB-superJumbo.webp",
+      "image":"./imgs/recipes/breakfast/15PANCAKEGUIDE1-WEB-superJumbo.webp",
       "prep":"15 minutes",
       "cook":"20 minutes",
       "yield":"4 servings",
@@ -97,6 +97,29 @@
         "To Make Streusel Topping: Mix together sugar, flour, butter, cinnamon and cardamom with a fork until coarse crumbs form. Sprinkle over muffins before baking.",
         "Divide batter evenly into muffin cups. Sprinkle with streusel topping.",
         "Bake for 20-25 minutes, until a tester inserted into the center comes out clean. When muffins are done, cool for a few minutes in the muffin pan before removing to cool on a wire rack."
+      ]
+    },
+    "French Toast": {
+      "title": "French Toast",
+      "image":"./imgs/recipes/breakfast/IE0309_French-Toast.jpg.rend_.sni18col.jpeg",
+      "prep":"20 minutes",
+      "cook":"10 minutes",
+      "yield":"4 servings",
+      "source": "Robert Irvine",
+      "ingredients":[
+        "1 teaspoon ground cinnamon",
+        "1/4 teaspoon ground nutmeg",
+        "1 1/2 tablespoons sugar",
+        "4 tablespoons butter",
+        "4 eggs",
+        "1/4 cup milk",
+        "1/2 teaspoon vanilla extract",
+        "8 slices challah, brioche, or white bread",
+        "1/2 cup maple syrup, warmed"
+      ],
+      "steps":[
+        "In a small bowl, combine cinnamon, nutmeg, and sugar and set aside briefly.",
+        "In a 10-inch or 12-inch skillet, melt butter over medium heat. Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container such as a pie plate. Dip bread in egg mixture. Fry slices until golden brown, then flip to cook the other side. Serve with syrup."
       ]
     }
   }
