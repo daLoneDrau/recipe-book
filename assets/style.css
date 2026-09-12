@@ -154,7 +154,17 @@ a { color: inherit; }
   font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: 1.32rem;
+  margin: 0 0 6px;
+}
+
+.card-source {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-style: italic;
   margin: 0 0 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-meta {

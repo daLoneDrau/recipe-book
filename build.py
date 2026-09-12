@@ -180,6 +180,11 @@ def render_index(recipes, tab_colors):
         if r.get("yield"):
             meta_bits.append(f'<span>{esc(r["yield"])}</span>')
 
+        source_html = ""
+        src = (r.get("source") or "").strip()
+        if src:
+            source_html = f'<p class="card-source">from {esc(src)}</p>'
+
         cards.append(f"""
         <a class="card" href="recipes/{esc(r['slug'])}.html"
            data-category="{esc(r['category'])}" data-search="{esc(r['title'].lower())}">
@@ -187,6 +192,7 @@ def render_index(recipes, tab_colors):
           {thumb_html}
           <div class="card-body">
             <h2>{esc(r['title'])}</h2>
+            {source_html}
             <div class="card-meta">{''.join(meta_bits)}</div>
           </div>
         </a>""")

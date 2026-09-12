@@ -1,5 +1,39 @@
 {
   "Breakfast": {
+    "Almond Croissant French Toast with Almond Butter Syrup": {
+      "title": "Almond Croissant French Toast with Almond Butter Syrup",
+      "image": "./imgs/recipes/breakfast/1393258445513.webp",
+      "prep": "15 minutes",
+      "cook": "10 minutes",
+      "yield": "4 servings",
+      "source": "Bobby Flay",
+      "ingredients": {
+        "Almond Butter Syrup": [
+          "4 tablespoons unsalted butter",
+          "1/4 cup sliced almonds",
+          "3/4 cup pure maple syrup",
+          "1/4 teaspoon pure almond extract"
+        ],
+        "Almond Croissant French Toast": [
+          "3 eggs",
+          "3 egg yolks",
+          "2 tablespoons pure cane sugar",
+          "1 1/4 cups half-and-half",
+          "1/4 teaspoon pure almond extract",
+          "1/4 teaspoon pure vanilla extract",
+          "Pinch sea salt",
+          "4 fresh all-butter croissants, sliced crosswise partway through, opened and flattened"
+        ]
+      },
+      "steps": [
+        "For the butter: Heat the butter in a heavy-duty saucepan over very low heat until it melts. Simmer gently until the foam rises to the top of the melted butter. Remove from heat and skim off the foam with a spoon.",
+        "Line a mesh strainer with a few layers of cheesecloth or gauze and place over a bowl. Carefully pour the warm butter through the cheesecloth-lined strainer into a bowl, leaving behind any solids from the bottom of the pan.",
+        "For the syrup: In a small saute pan over medium heat, melt the butter until it begins to shimmer. Add the almonds and saute until lightly golden brown. Add the syrup and almond extract and cook until heated through. Keep warm.",
+        "For the French toast: In a small baking dish, whisk together the eggs, yolks and sugar until smooth. Add the half-and-half, almond extract, vanilla extract and salt and whisk until combined.",
+        "Heat 2 tablespoons of the clarified butter in a medium saute pan over medium heat until it begins to shimmer. Dip one of the croissants in the egg mixture for 10 seconds, flip and soak another 10 seconds. Carefully put the soaked croissant into the hot butter cut-side down and cook until golden brown and a crust has formed, about 1 1/2 minutes. Flip and cook until the bottom is crisp and golden brown as well, about 1 minute. Repeat for the remaining croissants.",
+        "Serve hot with the almond butter syrup. Garnish with mint leaves and sprinkle confectioners' sugar over the top."
+      ]
+    },
     "Baked Baguette French Toast": {
       "title": "Baked Baguette French Toast",
       "image": "./imgs/recipes/breakfast/CWAR-weekend-brunch-baked-baguette-french-toast.webp",
@@ -116,6 +150,54 @@
         "1/2 teaspoon vanilla extract",
         "8 slices challah, brioche, or white bread",
         "1/2 cup maple syrup, warmed"
+      ],
+      "steps":[
+        "In a small bowl, combine cinnamon, nutmeg, and sugar and set aside briefly.",
+        "In a 10-inch or 12-inch skillet, melt butter over medium heat. Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container such as a pie plate. Dip bread in egg mixture. Fry slices until golden brown, then flip to cook the other side. Serve with syrup."
+      ]
+    },
+    "Hoecakes": {
+      "title": "Hoecakes",
+      "image":"./imgs/recipes/breakfast/hoecakes-new-1.jpeg",
+      "prep":"15 minutes",
+      "cook":"30 minutes",
+      "yield":"16 hoecakes",
+      "source": "America's Test Kitchen",
+      "ingredients":[
+        "3 cups (15 ounces) white cornmeal",
+        "2 tablespoons sugar",
+        "2 teaspoons baking powder",
+        "1 1/2 teaspoons salt",
+        "2 cups buttermilk",
+        "2 large eggs",
+        "2 tablespoons bacon fat or vegetable oil"
+      ],
+      "steps":[
+        "Adjust oven rack to middle position and heat oven to 200 degrees. Set wire rack in rimmed baking sheet and place in oven. Whisk cornmeal, sugar, baking powder, and salt together in large bowl. Beat buttermilk and eggs together in separate bowl. Whisk buttermilk mixture into cornmeal mixture until combined.",
+        "FOR A SKILLET: Heat 1 teaspoon fat in 12-inch nonstick skillet over medium heat until shimmering. Using level 1/4-cup dry measuring cup, drop 3 evenly spaced scoops of batter into skillet, smoothing tops slightly if necessary.",
+        "FOR A GRIDDLE: Heat 1 tablespoon fat on 400-degree nonstick griddle until shimmering. Using level 1/4-cup dry measuring cup, drop 8 evenly spaced scoops of batter onto griddle, smoothing tops slightly if necessary.",
+        "Cook until small bubbles begin to appear on surface of cakes and edges are set, about 2 minutes. Flip and cook until second side is golden brown, about 2 minutes longer. Transfer hoecakes to prepared sheet in oven. Repeat with remaining fat and batter: 5 additional batches for skillet or 1 additional batch for griddle. Serve."
+      ]
+    },
+    "Waffles": {
+      "title": "Waffles",
+      "image":"./imgs/recipes/breakfast/FAW-light-and-crispy-waffles-hero-01-8bf764fb8dac4ba0b119f5cbcda7a4e1.webp",
+      "prep":"20 minutes",
+      "cook":"15 minutes",
+      "yield":"14 servings",
+      "source": "Food & Wine Magazine",
+      "ingredients":[
+        "2 1/4 cup all-purpose flour",
+        "3/4 cup cornstarch",
+        "1 1/2 teaspoon kosher salt",
+        "3/4 teaspoon baking powder",
+        "3/4 teaspoon baking soda",
+        "2 1/4 cup buttermilk",
+        "1 1/8 cup vegetable oil",
+        "3/4 cup whole milk",
+        "3 large egg, separated",
+        "3 tablespoon sugar",
+        "1 1/2 teaspoon pure vanilla extract"
       ],
       "steps":[
         "In a small bowl, combine cinnamon, nutmeg, and sugar and set aside briefly.",
