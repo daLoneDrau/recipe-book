@@ -101,6 +101,25 @@ def assign_tab_colors(recipes):
     return colors
 
 
+def render_ingredients(ingredients):
+    """Ingredients can be either a flat list of strings, or a dict mapping
+    section names to lists of strings (e.g. "For the Batter": [...],
+    "For the Streusel": [...]). Render either shape appropriately."""
+    if isinstance(ingredients, dict):
+        parts = []
+        for section_name, items in ingredients.items():
+            items_html = "\n".join(f'<li>{esc(i)}</li>' for i in items)
+            parts.append(f"""
+            <div class="ingredient-section">
+              <h3>{esc(section_name)}</h3>
+              <ul>{items_html}</ul>
+            </div>""")
+        return "".join(parts)
+    else:
+        items_html = "\n".join(f'<li>{esc(i)}</li>' for i in ingredients)
+        return f"<ul>{items_html}</ul>"
+
+
 def resolve_image(recipe, from_dir_depth):
     """Return a site-relative image path if the recipe has one AND the file
     actually exists on disk, else None. from_dir_depth 0 = site root
@@ -207,7 +226,7 @@ def render_recipe_page(recipe, tab_colors):
         if image else ""
     )
 
-    ingredients_html = "\n".join(f'<li>{esc(i)}</li>' for i in recipe.get("ingredients", []))
+    ingredients_html = render_ingredients(recipe.get("ingredients", []))
     steps_html = "\n".join(f'<li>{esc(s)}</li>' for s in recipe.get("steps", []))
 
     meta_bits = []
@@ -240,7 +259,7 @@ def render_recipe_page(recipe, tab_colors):
     <div class="recipe-columns">
       <section class="ingredients">
         <h2>Ingredients</h2>
-        <ul>{ingredients_html}</ul>
+        {ingredients_html}
       </section>
       <section class="steps">
         <h2>Steps</h2>

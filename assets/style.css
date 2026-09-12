@@ -306,6 +306,19 @@ a { color: inherit; }
   font-size: 0.96rem;
 }
 
+.ingredient-section + .ingredient-section {
+  margin-top: 22px;
+}
+
+.ingredient-section h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+  font-style: italic;
+}
+
 .steps ol {
   padding-left: 22px;
   margin: 0;
