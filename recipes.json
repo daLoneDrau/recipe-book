@@ -1,0 +1,36 @@
+{
+  "Breakfast": {
+    "Baked Baguette French Toast": {
+      "title": "Baked Baguette French Toast",
+      "image": "./imgs/recipes/CWAR-weekend-brunch-baked-baguette-french-toast.webp",
+      "source": "Bon Appétit",
+      "prep": "20 minutes",
+      "cook": "10 minutes",
+      "yield": "4 servings",
+      "ingredients": [
+        "1 baguette",
+        "1 tablespoon vegetable oil",
+        "3 eggs",
+        "1 cup milk",
+        "1/2 cup brown sugar",
+        "1/4 teaspoon nutmeg",
+        "1/2 teaspoon almond extract",
+        "3/4 cup pecans",
+        "3/4 cup blueberries",
+        "4 tablespoon melted butter",
+        "1/4 cup brown sugar",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon nutmeg"
+      ],
+      "steps": [
+        "Cut 1 baguette into 1\u201d slices and place in a single layer in a 13\u201dx9\u201d baking dish that you\u2019ve greased with vegetable oil.",
+        "Top the bread with a mixture of 3 eggs, 1 cup milk, \u00bd cup brown sugar, \u00bc tsp. nutmeg, and 1 tsp. almond extract.",
+        "Refrigerate overnight so the bread absorbs all of the sweet, goopy liquid.",
+        "In the morning, toast pecans at 350\u00b0 for about 5 to 8 minutes until they're fragrant.",
+        "Toss them with 1 Tbsp. melted butter and top your bread along with blueberries.",
+        "Mix 3 Tbsp. melted butter with 1/4 cup brown sugar, 1/4 tsp. salt, and 1/4 tsp nutmeg. Drizzle over bread, nuts, and fruit.",
+        "Bake dish uncovered at 400\u00b0 for 20 to 25 minutes until things look bubbly and golden brown."
+      ]
+    }
+  }
+}
