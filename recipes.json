@@ -388,6 +388,49 @@
         "Add the sesame oil and bell peppers and cook for 30 seconds.",
         "Add the chicken and stir to evenly coat them."
       ]
+    },
+    "Mojo Marinade Skirt Steak": {
+      "title": "Mojo Marinade Skirt Steak",
+      "subcategory": "Beef",
+      "source": "America's Test Kitchen",
+      "image": "./imgs/recipes/entrees/beef/40867_sfs-grilled-mojo-marinated-steak-18.jfif",
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "yield": "1 1/2 pounds",
+      "ingredients": {
+        "Marinade": [
+          "1 1/2 to 2 pounds skirt steak",
+          "1/2 cup orange juice",
+          "2 tablespoon lime juice",
+          "6 minced garlic cloves",
+          "1 tsp ground cumin",
+          "1 tsp dried oregano",
+          "1/4 tsp red pepper flakes",
+          "1 tbsp soy sauce",
+          "1 tsp salt"
+        ],
+        "Sauce": [
+          "1 tsp lime zest",
+          "1/2 tsp orange zest",
+          "2 tbsp lime juice",
+          "1 tbsp olive oil"
+        ],
+        "Browning Drizzle": [
+          "1 tbsp olive oil",
+          "1 tsp baking soda"
+        ]
+      },
+      "steps": [
+        "Wash the steaks, remove silver skin, but leave the fat, it will melt off. Cut it in half. We are looking for 6-8 inch steaks.",
+        "Mix orange juice, lime juice, garlic, salt, pepper, and cumin, oregano, pepper flakes, soy sauce, and salt.",
+        "Marinade the steak in a 13\"x9\" baking dish for at least one hour, flipping halfway through.",
+        "Remove the steak from the marinade.",
+        "Pour the marinade into a saucepan and bring to a boil.  Boil for 30 seconds to kill any germs.",
+        "Turn off and add the lime zest, orange zest, lime juice, and 1 tbsp olive oil to the sauce and stir.",
+        "Dry the steaks with a paper towel. If you leave moisture on the surface it's going to make the steaks steam.",
+        "Mix the olive oil and baking soda and drizzle on the steak and rub it into both sides. The oil will help the meat heat evenly while the baking soda changes the ph of the meat and helps it to brown faster.",
+        "Grill on high for 6-7 minutes each side."
+      ]
     }
   }
 }
