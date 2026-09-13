@@ -350,6 +350,41 @@
         "Grill or broil the meat for 7-10 minutes each side."
       ]
     },
+    "Duck Breasts with Port Wine–Fig Sauce": {
+      "title": "Duck Breasts with Port Wine–Fig Sauce",
+      "subcategory": "Poultry",
+      "source": "America's Test Kitchen",
+      "image": "./imgs/recipes/entrees/poultry/SFS_DuckBreastsPortWineFigSauce_105_gjdsut.jfif",
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "yield": "1 1/2 pounds",
+      "ingredients": {
+        "Duck": [
+          "4 (7- to 8-ounce) boneless duck breasts",
+          "2 teaspoons kosher salt",
+          "1½ teaspoons pepper"
+        ],
+        "Sauce": [
+          "½ cup ruby port",
+          "¼ cup dried Black Mission figs, halved through stem",
+          "¼ cup red wine vinegar",
+          "3 tablespoons sugar"
+        ]
+      },
+      "steps": {
+        "For The Duck": [
+          "Pat duck breasts dry with paper towels. Place breasts skin side down on cutting board. Using sharp knife, trim away excess fat around edges of breasts, then remove any visible silverskin attached to meat.",
+          "Flip breasts and cut ½-inch crosshatch pattern in fat, being careful not to cut into meat. Sprinkle all over with salt and pepper. Place duck on large plate skin side up, cover tightly with plastic wrap, and refrigerate for at least 6 hours or up to 24 hours."
+        ],
+        "For The Sauce": [
+          "Meanwhile, combine all ingredients in small saucepan. Bring to boil over medium heat. Cook until reduced to about ½ cup, about 15 minutes; set aside off heat. Sauce will thicken to syrupy consistency as it cools. (Cooled sauce can be stored in airtight container for up to 3 days or refrigerated for up to 2 weeks.)",
+          "Place breasts skin side down in cold 12-inch nonstick skillet. Cook over medium heat until copious amount of fat has rendered and skin is well browned and crispy, 17 to 20 minutes.",
+          "Flip breasts skin side up and reduce heat to medium-low. Cook until centers of breasts register 125 to 130 degrees (for medium-rare), 1 to 2 minutes; 130 to 135 degrees (for medium), 3 to 4 minutes; 135 to 140 degrees (for medium-well), 4 to 5 minutes; or 145 to 150 degrees (for well-done), 7 to 8 minutes.",
+          "Transfer breasts to wire rack set in rimmed baking sheet. Tent with aluminum foil and let rest for 10 minutes.",
+          "Transfer duck to carving board and slice ¼ inch thick. Serve with sauce.,"
+        ]
+      }
+    },
     "General Tso's Chicken": {
       "title": "General Tso's Chicken",
       "image": "./imgs/recipes/entrees/poultry/453cf9ab52c2e865c1049a7d717572c80fc471c1-1000x563.webp",

@@ -355,11 +355,13 @@ a { color: inherit; }
   font-size: 0.96rem;
 }
 
-.ingredient-section + .ingredient-section {
+.ingredient-section + .ingredient-section,
+.step-section + .step-section {
   margin-top: 22px;
 }
 
-.ingredient-section h3 {
+.ingredient-section h3,
+.step-section h3 {
   font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: 0.95rem;

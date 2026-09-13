@@ -121,6 +121,28 @@ def render_ingredients(ingredients):
         return f"<ul>{items_html}</ul>"
 
 
+def render_steps(steps):
+    """Steps can be either a flat list of strings, or a dict mapping section
+    names to lists of strings (e.g. "For The Duck": [...], "For The Sauce":
+    [...]). When sectioned, numbering continues across sections instead of
+    restarting at 1, using <ol start="N"> per section."""
+    if isinstance(steps, dict):
+        parts = []
+        next_number = 1
+        for section_name, items in steps.items():
+            items_html = "\n".join(f'<li>{esc(i)}</li>' for i in items)
+            parts.append(f"""
+            <div class="step-section">
+              <h3>{esc(section_name)}</h3>
+              <ol start="{next_number}">{items_html}</ol>
+            </div>""")
+            next_number += len(items)
+        return "".join(parts)
+    else:
+        items_html = "\n".join(f'<li>{esc(i)}</li>' for i in steps)
+        return f"<ol>{items_html}</ol>"
+
+
 def resolve_image(recipe, from_dir_depth):
     """Return a site-relative image path if the recipe has one AND the file
     actually exists on disk, else None. from_dir_depth 0 = site root
@@ -250,7 +272,7 @@ def render_recipe_page(recipe, tab_colors):
     )
 
     ingredients_html = render_ingredients(recipe.get("ingredients", []))
-    steps_html = "\n".join(f'<li>{esc(s)}</li>' for s in recipe.get("steps", []))
+    steps_html = render_steps(recipe.get("steps", []))
 
     meta_bits = []
     if recipe.get("prep"):
@@ -289,7 +311,7 @@ def render_recipe_page(recipe, tab_colors):
       </section>
       <section class="steps">
         <h2>Steps</h2>
-        <ol>{steps_html}</ol>
+        {steps_html}
       </section>
     </div>
   </article>
