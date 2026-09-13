@@ -318,10 +318,37 @@
     }
   },
   "Entrees": {
+    "Carne Asada": {
+      "title": "Carne Asada",
+      "image": "",
+      "subcategory": "Beef",
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "yield": "1 1/2 pounds",
+      "source": "Unknown",
+      "ingredients": [
+        "1 1/2 to 2 pounds skirt steak",
+        "1 tablespoon baking soda",
+        "1 tablespoon salt",
+        "2 cups water",
+        "1/2 cup orange juice",
+        "the juice of 2 limes",
+        "4 cloves garlic, crushed",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "1/4 cup vegetable oil"
+      ],
+      "steps": [
+        "Rub both sides of the steak with baking soda and let sit for 15 minutes. Rinse off the baking soda afterwards. This will tenderize the meat.",
+        "Mix the water and salt in a large container. Add the meat and let marinate overnight.",
+        "Mix orange juice, lime juice, garlic, salt, pepper, and oil. Remove the steak from the refrigerator and discard the old marinade. Cover the meat with the new marinade and let sit for at least 2 hours.",
+        "Grill or broil the meat for 7-10 minutes each side."
+      ]
+    },
     "General Tso's Chicken": {
       "title": "General Tso's Chicken",
       "image": "./imgs/recipes/entrees/poultry/453cf9ab52c2e865c1049a7d717572c80fc471c1-1000x563.webp",
-      "subcategory": "Chinese",
+      "subcategory": "Poultry",
       "prep": "30 minutes",
       "cook": "35 minutes",
       "yield": "4 servings",
