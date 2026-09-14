@@ -471,6 +471,29 @@
         "Mix the olive oil and baking soda and drizzle on the steak and rub it into both sides. The oil will help the meat heat evenly while the baking soda changes the ph of the meat and helps it to brown faster.",
         "Grill on high for 6-7 minutes each side."
       ]
+    },
+    "Pasta Al Limone": {
+      "title": "Pasta Al Limone",
+      "subcategory": "Pasta",
+      "source": "Bon Appétit Magazine",
+      "image": "./imgs/recipes/entrees/pasta/20240305_0524_LemonPasta_0108_ret.webp",
+      "prep": "10 minutes",
+      "cook": "10 minutes",
+      "yield": "4 servings",
+      "ingredients": [
+        "1 lb. linguine",
+        "2 tsp. Lemon Zest",
+        "2 Tbsp. (¼ stick) unsalted butter",
+        "3 Tbsp. Extra-virgin olive oil (for drizzling)",
+        "½ tsp. freshly ground pepper",
+        "3 Tbsp. Lemon juice",
+        "½ tsp. Diamond Crystal or ¼ tsp. Morton kosher salt, plus more"
+      ],
+      "steps": [
+        "Cook 1 lb. linguine in a large pot of boiling salted water, stirring occasionally, until 2 minutes shy of al dente; drain.",
+        "Transfer linguine to a large high-sided skillet or a Dutch oven, add ¼ cup water, and set over medium-low heat. Stir in zest of 2 Meyer lemons, 6 Tbsp. (¾ stick) unsalted butter, and ½ tsp. freshly ground pepper. Increase heat to medium and cook, tossing with tongs and adding a little more water if pasta seems dry, until butter is melted. Add juice of 1 Meyer lemon, ¼ cup finely grated Parmigiano-Reggiano, and ½ tsp. Diamond Crystal or ¼ tsp. Morton kosher salt and cook, tossing, until sauce thickens slightly and only a little liquid remains and pasta is al dente (increase heat to high if needed). Taste pasta and season with more salt if desired.",
+        "Divide pasta among plates or shallow bowls. Drizzle with extra-virgin olive oil and top with more Parmigiano-Reggiano, if desired."
+      ]
     }
   }
 }
