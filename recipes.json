@@ -494,6 +494,36 @@
         "Transfer linguine to a large high-sided skillet or a Dutch oven, add ¼ cup water, and set over medium-low heat. Stir in lemon zest, 2 Tbsp. (¼ stick) unsalted butter, 3 Tbsp. of olive oil, and ½ tsp. freshly ground pepper. Increase heat to medium and cook, tossing with tongs and adding a little more water if pasta seems dry, until butter is melted. Add juice of 1 Meyer lemon, and ½ tsp. Diamond Crystal or ¼ tsp. Morton kosher salt and cook, tossing, until sauce thickens slightly and only a little liquid remains and pasta is al dente (increase heat to high if needed). Taste pasta and season with more salt if desired.",
         "Divide pasta among plates or shallow bowls. Drizzle with extra-virgin olive oil and top with more Parmigiano-Reggiano, if desired."
       ]
+    },
+    "Za’atar Meatballs": {
+      "title": "Za’atar Meatballs",
+      "subcategory": "Greek",
+      "source": "New York Times Cooking",
+      "image": "./imgs/recipes/entrees/greek/SP-Zaatar-Turkey-Meatballs-with-Tahini-Yogurt-zmbg-superJumbo.webp",
+      "prep": "35 minutes",
+      "cook": "20 minutes",
+      "yield": "4 servings",
+      "ingredients": [
+        "¾ cup plain, whole-milk Greek yogurt",
+        "3 tablespoons tahini",
+        "1 large garlic clove, grated or minced",
+        "2 tablespoons freshly squeezed lemon juice, divided",
+        "1 teaspoon plus a pinch kosher salt (such as Diamond Crystal), divided",
+        "1 large egg",
+        "1 pound ground pork",
+        "½ cup panko bread crumbs",
+        "⅓ cup chopped fresh parsley, divided",
+        "3 tablespoons plus 1 teaspoon za’atar, divided",
+        "Freshly ground black pepper",
+        "Oil, for forming the meatballs,"
+      ],
+      "steps": [
+        "Heat oven to 400 degrees. Line a rimmed baking sheet with parchment paper.",
+        "In a large bowl, combine the yogurt, tahini, garlic, 1 tablespoon lemon juice and a pinch of salt. Transfer ½ cup of the tahini yogurt to a small bowl and reserve.",
+        "Crack the egg into the large bowl and, using a fork, lightly whisk it into the yogurt mixture. Add the turkey, panko, three-quarters of the parsley, 2 tablespoons za’atar, the remaining 1 teaspoon salt and several grinds of pepper; mix lightly just until combined. Using oiled hands, roll into 16 meatballs (about 2 tablespoons each) and place on the prepared baking sheet. (The mixture will be quite soft.) Bake until cooked through, about 10 minutes.",
+        "Stir in the remaining 1 tablespoon lemon juice and 1 tablespoon water to reserved tahini yogurt until thin enough to drizzle. (If it’s still too thick, add another 1 tablespoon water.)",
+        "Garnish the meatballs with the remaining parsley and za’atar and serve with the tahini yogurt."
+      ]
     }
   }
 }
