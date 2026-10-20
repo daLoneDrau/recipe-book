@@ -429,6 +429,38 @@
         "Add the chicken and stir to evenly coat them."
       ]
     },
+    "Skillet London Broil": {
+      "title": "Skillet London Broil",
+      "subcategory": "Beef",
+      "source": "Bon Appétit Magazine",
+      "image": "./imgs/recipes/entrees/beef/skillet_lb.webp",
+      "prep": "25 minutes",
+      "cook": "15 minutes",
+      "yield": "2-4 serving",
+      "ingredients": {
+        "Marinade": [
+          "4 garlic cloves, thinly sliced",
+          "¼ cup extra-virgin olive oil",
+          "2 Tbsp. good-quality balsamic vinegar",
+          "2 Tbsp. soy sauce",
+          "1 Tbsp. Worcestershire sauce",
+          "Freshly ground black pepper",
+          "¾ tsp. baking soda",
+          "1 (1½–2 lb.) London broil,"
+        ],
+        "Assembly": [
+          "1 Tbsp. vegetable oil",
+          "Kosher salt",
+          "Flaky sea salt"
+        ]
+      },
+      "steps": [
+        "Whisk 4 garlic cloves, thinly sliced, ¼ cup extra-virgin olive oil, 2 Tbsp. good-quality balsamic vinegar, 2 Tbsp. soy sauce, and 1 Tbsp. Worcestershire sauce in a medium bowl or baking dish to combine; season with freshly ground black pepper. Whisk in ¾ tsp. baking soda (don’t worry if marinade fizzes; that’s the baking soda working).",
+        "Prick one 1½–2 lb. London broil all over with a fork and add to marinade, turning to coat. Let sit at room temperature at least 1 hour or cover and chill up to 12 hours.",
+        "Heat 1 Tbsp. vegetable oil in a large cast-iron pan or other heavy-bottomed skillet over medium. Remove steak from marinade and allow excess to drip back into bowl. Pat steak dry with paper towels; discard marinade (or reserve to make sauce). Season steak generously with kosher salt and cook, turning once, until deeply browned and an instant-read thermometer inserted into thickest part registers 125° for medium-rare, 8–12 minutes total. Using tongs, stand steak on its sides and cook until lightly browned, about 30 seconds per side. Transfer to a cutting board and let rest 10 minutes.",
+        "Thinly slice London broil against the grain and arrange on a platter. Sprinkle with flaky sea salt."
+      ]
+    },
     "Mojo Marinade Skirt Steak": {
       "title": "Mojo Marinade Skirt Steak",
       "subcategory": "Beef",
