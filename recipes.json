@@ -429,38 +429,6 @@
         "Add the chicken and stir to evenly coat them."
       ]
     },
-    "Skillet London Broil": {
-      "title": "Skillet London Broil",
-      "subcategory": "Beef",
-      "source": "Bon Appétit Magazine",
-      "image": "./imgs/recipes/entrees/beef/skillet_lb.webp",
-      "prep": "25 minutes",
-      "cook": "15 minutes",
-      "yield": "2-4 serving",
-      "ingredients": {
-        "Marinade": [
-          "4 garlic cloves, thinly sliced",
-          "¼ cup extra-virgin olive oil",
-          "2 Tbsp. good-quality balsamic vinegar",
-          "2 Tbsp. soy sauce",
-          "1 Tbsp. Worcestershire sauce",
-          "Freshly ground black pepper",
-          "¾ tsp. baking soda",
-          "1 (1½–2 lb.) London broil,"
-        ],
-        "Assembly": [
-          "1 Tbsp. vegetable oil",
-          "Kosher salt",
-          "Flaky sea salt"
-        ]
-      },
-      "steps": [
-        "Whisk 4 garlic cloves, thinly sliced, ¼ cup extra-virgin olive oil, 2 Tbsp. good-quality balsamic vinegar, 2 Tbsp. soy sauce, and 1 Tbsp. Worcestershire sauce in a medium bowl or baking dish to combine; season with freshly ground black pepper. Whisk in ¾ tsp. baking soda (don’t worry if marinade fizzes; that’s the baking soda working).",
-        "Prick one 1½–2 lb. London broil all over with a fork and add to marinade, turning to coat. Let sit at room temperature at least 1 hour or cover and chill up to 12 hours.",
-        "Heat 1 Tbsp. vegetable oil in a large cast-iron pan or other heavy-bottomed skillet over medium. Remove steak from marinade and allow excess to drip back into bowl. Pat steak dry with paper towels; discard marinade (or reserve to make sauce). Season steak generously with kosher salt and cook, turning once, until deeply browned and an instant-read thermometer inserted into thickest part registers 125° for medium-rare, 8–12 minutes total. Using tongs, stand steak on its sides and cook until lightly browned, about 30 seconds per side. Transfer to a cutting board and let rest 10 minutes.",
-        "Thinly slice London broil against the grain and arrange on a platter. Sprinkle with flaky sea salt."
-      ]
-    },
     "Mojo Marinade Skirt Steak": {
       "title": "Mojo Marinade Skirt Steak",
       "subcategory": "Beef",
@@ -525,6 +493,67 @@
         "Cook 1 lb. linguine in a large pot of boiling salted water, stirring occasionally, until 2 minutes shy of al dente; drain.",
         "Transfer linguine to a large high-sided skillet or a Dutch oven, add ¼ cup water, and set over medium-low heat. Stir in lemon zest, 2 Tbsp. (¼ stick) unsalted butter, 3 Tbsp. of olive oil, and ½ tsp. freshly ground pepper. Increase heat to medium and cook, tossing with tongs and adding a little more water if pasta seems dry, until butter is melted. Add juice of 1 Meyer lemon, and ½ tsp. Diamond Crystal or ¼ tsp. Morton kosher salt and cook, tossing, until sauce thickens slightly and only a little liquid remains and pasta is al dente (increase heat to high if needed). Taste pasta and season with more salt if desired.",
         "Divide pasta among plates or shallow bowls. Drizzle with extra-virgin olive oil and top with more Parmigiano-Reggiano, if desired."
+      ]
+    },
+    "Shish Tawook": {
+      "title": "Shish Tawook",
+      "subcategory": "Poultry",
+      "source": "New York Times Cooking",
+      "image": "./imgs/recipes/entrees/poultry/28FD-KEBAB-GRILL-TIPSREX2-ND-Shish-Tawook-jzcv-superJumbo.webp",
+      "prep": "6 hours",
+      "cook": "35 minutes",
+      "yield": "2-4 serving",
+      "ingredients": [
+          "½ cup full-fat plain yogurt",
+          "¼ cup lemon juice (from 1 to 2 lemons)",
+          "8 garlic cloves, finely grated",
+          "3 tablespoons olive oil",
+          "2 tablespoons tomato paste",
+          "1 tablespoon kosher salt (such as Diamond Crystal)",
+          "1 teaspoon sweet or smoked paprika",
+          "½ teaspoon ground cinnamon",
+          "½ teaspoon dried oregano",
+          "½ teaspoon ground ginger",
+          "½ teaspoon black pepper",
+          "2 pounds boneless, skinless chicken breasts (2 large), cut into 1 ½-inch pieces"
+      ],
+      "steps": [
+        "In a large bowl, combine the yogurt, lemon juice, garlic, olive oil, tomato paste, salt, paprika, cinnamon, oregano, ginger and pepper and stir until blended. Add the chicken and toss to coat well in the marinade. Cover and marinate in the fridge for at least 6 hours (and preferably 24 hours).",
+        "If using wooden skewers, soak them in water for 30 minutes prior to grilling. Heat a gas grill to medium-high (400 degrees), or prepare a charcoal grill. Remove the chicken from the fridge 30 minutes prior to grilling.",
+        "For easier skewering, place a piece of chicken on a cutting board, gently hold it down with one hand as you skewer with the other and continue with the rest, about 6 pieces per skewer. Arrange the chicken pieces close to each other so they remain juicy.",
+        "When the grill is hot, clean the grill and oil the grates. Add the skewers and grill with the lid open, turning occasionally, until lightly charred and cooked through, 20 to 25 minutes. Transfer the skewers to a platter, place a piece of flatbread, like lavash or pita, on the skewer and gently press down with one hand as you pull out the skewer with the other hand, or use a fork to slide the meat off the skewer. Serve right away, or cover to keep warm and juicy."
+      ]
+    },
+    "Skillet London Broil": {
+      "title": "Skillet London Broil",
+      "subcategory": "Beef",
+      "source": "Bon Appétit Magazine",
+      "image": "./imgs/recipes/entrees/beef/skillet_lb.webp",
+      "prep": "25 minutes",
+      "cook": "15 minutes",
+      "yield": "2-4 serving",
+      "ingredients": {
+        "Marinade": [
+          "4 garlic cloves, thinly sliced",
+          "¼ cup extra-virgin olive oil",
+          "2 Tbsp. good-quality balsamic vinegar",
+          "2 Tbsp. soy sauce",
+          "1 Tbsp. Worcestershire sauce",
+          "Freshly ground black pepper",
+          "¾ tsp. baking soda",
+          "1 (1½–2 lb.) London broil,"
+        ],
+        "Assembly": [
+          "1 Tbsp. vegetable oil",
+          "Kosher salt",
+          "Flaky sea salt"
+        ]
+      },
+      "steps": [
+        "Whisk 4 garlic cloves, thinly sliced, ¼ cup extra-virgin olive oil, 2 Tbsp. good-quality balsamic vinegar, 2 Tbsp. soy sauce, and 1 Tbsp. Worcestershire sauce in a medium bowl or baking dish to combine; season with freshly ground black pepper. Whisk in ¾ tsp. baking soda (don’t worry if marinade fizzes; that’s the baking soda working).",
+        "Prick one 1½–2 lb. London broil all over with a fork and add to marinade, turning to coat. Let sit at room temperature at least 1 hour or cover and chill up to 12 hours.",
+        "Heat 1 Tbsp. vegetable oil in a large cast-iron pan or other heavy-bottomed skillet over medium. Remove steak from marinade and allow excess to drip back into bowl. Pat steak dry with paper towels; discard marinade (or reserve to make sauce). Season steak generously with kosher salt and cook, turning once, until deeply browned and an instant-read thermometer inserted into thickest part registers 125° for medium-rare, 8–12 minutes total. Using tongs, stand steak on its sides and cook until lightly browned, about 30 seconds per side. Transfer to a cutting board and let rest 10 minutes.",
+        "Thinly slice London broil against the grain and arrange on a platter. Sprinkle with flaky sea salt."
       ]
     },
     "Za’atar Meatballs": {
