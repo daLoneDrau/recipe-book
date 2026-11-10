@@ -576,7 +576,7 @@
         "⅓ cup chopped fresh parsley, divided",
         "3 tablespoons plus 1 teaspoon za’atar, divided",
         "Freshly ground black pepper",
-        "Oil, for forming the meatballs,"
+        "Oil, for forming the meatballs"
       ],
       "steps": [
         "Heat oven to 400 degrees. Line a rimmed baking sheet with parchment paper.",
@@ -584,6 +584,30 @@
         "Crack the egg into the large bowl and, using a fork, lightly whisk it into the yogurt mixture. Add the turkey, panko, three-quarters of the parsley, 2 tablespoons za’atar, the remaining 1 teaspoon salt and several grinds of pepper; mix lightly just until combined. Using oiled hands, roll into 16 meatballs (about 2 tablespoons each) and place on the prepared baking sheet. (The mixture will be quite soft.) Bake until cooked through, about 10 minutes.",
         "Stir in the remaining 1 tablespoon lemon juice and 1 tablespoon water to reserved tahini yogurt until thin enough to drizzle. (If it’s still too thick, add another 1 tablespoon water.)",
         "Garnish the meatballs with the remaining parsley and za’atar and serve with the tahini yogurt."
+      ]
+    }
+  },
+  "Sides": {
+    "Oven-Roasted Brussels Sprouts": {
+      "title": "Oven-Roasted Brussels Sprouts",
+      "subcategory": "Vegetables",
+      "source": "Good Housekeeping",
+      "image": "./imgs/recipes/sides/vegetables/landscape-1508780737-how-to-roasted-brussels-sprouts.avif",
+      "prep": "35 minutes",
+      "cook": "20 minutes",
+      "yield": "4 servings",
+      "ingredients": [
+        "1 1/4 lbs Brussels sprouts",
+        "2 tbsp. olive oil, for drizzling",
+        "1/8 tsp. salt, to taste",
+        "1 tsp. thyme",
+        "1/4 tsp. pepper",
+        "1 clove garlic"
+      ],
+      "steps": [
+        "Trim the ends of the sprouts, then cut in half lengthwise.",
+        "Throw the sprouts on a baking sheet and go wild with seasoning. For classic Brussels sprouts, add 2 tablespoons olive oil, 1/8 teaspoon salt, 1 clove garlic, 1 teaspoon thyme and 1/4 teaspoon pepper. Mix everything together with your hands and make sure every sprout is coated.",
+        "Now it's time to roast. Roast at 450°F for 10 minutes. To ensure the sprouts are crispy from all angles, take the pan out of the oven and toss the sprouts with a spatula. Then pop them back in the oven for 10 more minutes, at 450°F."
       ]
     }
   }
